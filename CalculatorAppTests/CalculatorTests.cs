@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.Extensions.Logging;
 
 namespace CalculatorApp.Tests
 {
@@ -12,7 +13,7 @@ namespace CalculatorApp.Tests
     public class CalculatorTests
     {
 
-        [TestMethod()]
+       [TestMethod()]
         public void PerformOperationTest_Addition()
         {
 
